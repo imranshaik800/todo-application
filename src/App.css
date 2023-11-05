@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  color: black;
+} 
+
+.bg-container {
+  background-color:#5AAAA6;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} 
+.card-container {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+} 
+input {
+
+  padding:5px;
+  margin: 5px;
+} 
+.add-button {
+  width: 80px;
+  background-color:blue;
+  color: white;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+} 
+.unorder-list {
+  display: flex;
+  flex-direction: column;
+
+} 
+.form-element {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
